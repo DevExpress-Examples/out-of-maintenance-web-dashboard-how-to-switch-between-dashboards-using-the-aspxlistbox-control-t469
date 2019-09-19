@@ -17,7 +17,7 @@
         var dashboardControl;
         function openDashboard(id) {            
             if (!!openDashboardExtension) {
-                openDashboardExtension.loadDashboardById(id);
+                openDashboardExtension.loadDashboard(id);
             }
         }
         function onSelectedIndexChanged(s, e) {
